@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		93C05F95261EF10D0037FA5A /* ApodClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C05F94261EF10C0037FA5A /* ApodClientTest.swift */; };
+		93C05FA0261EF31B0037FA5A /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 93C05F9F261EF31A0037FA5A /* Readme.md */; };
 		93C54BD0261ED699005E2F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BCF261ED699005E2F05 /* AppDelegate.swift */; };
 		93C54BD2261ED699005E2F05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BD1261ED699005E2F05 /* SceneDelegate.swift */; };
 		93C54BD4261ED699005E2F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BD3261ED699005E2F05 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		93C05F94261EF10C0037FA5A /* ApodClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodClientTest.swift; sourceTree = "<group>"; };
+		93C05F9F261EF31A0037FA5A /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		93C54BCC261ED699005E2F05 /* Apod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C54BCF261ED699005E2F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C54BD1261ED699005E2F05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				93C54BD8261ED69C005E2F05 /* Assets.xcassets */,
 				93C54BDA261ED69C005E2F05 /* LaunchScreen.storyboard */,
 				93C54BDD261ED69C005E2F05 /* Info.plist */,
+				93C05F9F261EF31A0037FA5A /* Readme.md */,
 			);
 			path = Apod;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C05FA0261EF31B0037FA5A /* Readme.md in Resources */,
 				93C54BDC261ED69C005E2F05 /* LaunchScreen.storyboard in Resources */,
 				93C54C48261EED50005E2F05 /* Mocks.bundle in Resources */,
 				93C54BD9261ED69C005E2F05 /* Assets.xcassets in Resources */,
@@ -512,7 +516,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Sapient.Apod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -530,7 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Sapient.Apod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
