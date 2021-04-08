@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93C05F95261EF10D0037FA5A /* ApodClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C05F94261EF10C0037FA5A /* ApodClientTest.swift */; };
 		93C54BD0261ED699005E2F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BCF261ED699005E2F05 /* AppDelegate.swift */; };
 		93C54BD2261ED699005E2F05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BD1261ED699005E2F05 /* SceneDelegate.swift */; };
 		93C54BD4261ED699005E2F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BD3261ED699005E2F05 /* ViewController.swift */; };
@@ -15,6 +16,13 @@
 		93C54BDC261ED69C005E2F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C54BDA261ED69C005E2F05 /* LaunchScreen.storyboard */; };
 		93C54BE7261ED69C005E2F05 /* ApodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BE6261ED69C005E2F05 /* ApodTests.swift */; };
 		93C54BF2261ED69C005E2F05 /* ApodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54BF1261ED69C005E2F05 /* ApodUITests.swift */; };
+		93C54C0B261EDD86005E2F05 /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = 93C54C0A261EDD86005E2F05 /* OHHTTPStubs */; };
+		93C54C0D261EDD86005E2F05 /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 93C54C0C261EDD86005E2F05 /* OHHTTPStubsSwift */; };
+		93C54C13261EDE16005E2F05 /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54C12261EDE16005E2F05 /* Apod.swift */; };
+		93C54C1B261EDE61005E2F05 /* ApodClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54C1A261EDE61005E2F05 /* ApodClient.swift */; };
+		93C54C21261EDEC9005E2F05 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54C20261EDEC9005E2F05 /* RemoteImageView.swift */; };
+		93C54C3B261EE82F005E2F05 /* Mocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C54C3A261EE82F005E2F05 /* Mocker.swift */; };
+		93C54C48261EED50005E2F05 /* Mocks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 93C54C47261EED50005E2F05 /* Mocks.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93C05F94261EF10C0037FA5A /* ApodClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodClientTest.swift; sourceTree = "<group>"; };
 		93C54BCC261ED699005E2F05 /* Apod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C54BCF261ED699005E2F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93C54BD1261ED699005E2F05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		93C54BED261ED69C005E2F05 /* ApodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93C54BF1261ED69C005E2F05 /* ApodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodUITests.swift; sourceTree = "<group>"; };
 		93C54BF3261ED69C005E2F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93C54C12261EDE16005E2F05 /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
+		93C54C1A261EDE61005E2F05 /* ApodClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodClient.swift; sourceTree = "<group>"; };
+		93C54C20261EDEC9005E2F05 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		93C54C3A261EE82F005E2F05 /* Mocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocker.swift; sourceTree = "<group>"; };
+		93C54C47261EED50005E2F05 /* Mocks.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Mocks.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C54C0B261EDD86005E2F05 /* OHHTTPStubs in Frameworks */,
+				93C54C0D261EDD86005E2F05 /* OHHTTPStubsSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +118,8 @@
 				93C54BCF261ED699005E2F05 /* AppDelegate.swift */,
 				93C54BD1261ED699005E2F05 /* SceneDelegate.swift */,
 				93C54BD3261ED699005E2F05 /* ViewController.swift */,
+				93C54C1F261EDEB5005E2F05 /* Utilities */,
+				93C54C02261EDAF7005E2F05 /* API */,
 				93C54BD5261ED69A005E2F05 /* Main.storyboard */,
 				93C54BD8261ED69C005E2F05 /* Assets.xcassets */,
 				93C54BDA261ED69C005E2F05 /* LaunchScreen.storyboard */,
@@ -114,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				93C54BE6261ED69C005E2F05 /* ApodTests.swift */,
+				93C54C31261EE786005E2F05 /* APITest */,
 				93C54BE8261ED69C005E2F05 /* Info.plist */,
 			);
 			path = ApodTests;
@@ -126,6 +145,41 @@
 				93C54BF3261ED69C005E2F05 /* Info.plist */,
 			);
 			path = ApodUITests;
+			sourceTree = "<group>";
+		};
+		93C54C02261EDAF7005E2F05 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				93C54C11261EDDFC005E2F05 /* Models */,
+				93C54C1A261EDE61005E2F05 /* ApodClient.swift */,
+				93C54C3A261EE82F005E2F05 /* Mocker.swift */,
+				93C54C47261EED50005E2F05 /* Mocks.bundle */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		93C54C11261EDDFC005E2F05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93C54C12261EDE16005E2F05 /* Apod.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93C54C1F261EDEB5005E2F05 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				93C54C20261EDEC9005E2F05 /* RemoteImageView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		93C54C31261EE786005E2F05 /* APITest */ = {
+			isa = PBXGroup;
+			children = (
+				93C05F94261EF10C0037FA5A /* ApodClientTest.swift */,
+			);
+			path = APITest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +198,10 @@
 			dependencies = (
 			);
 			name = Apod;
+			packageProductDependencies = (
+				93C54C0A261EDD86005E2F05 /* OHHTTPStubs */,
+				93C54C0C261EDD86005E2F05 /* OHHTTPStubsSwift */,
+			);
 			productName = Apod;
 			productReference = 93C54BCC261ED699005E2F05 /* Apod.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +273,9 @@
 				Base,
 			);
 			mainGroup = 93C54BC3261ED699005E2F05;
+			packageReferences = (
+				93C54C09261EDD86005E2F05 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+			);
 			productRefGroup = 93C54BCD261ED699005E2F05 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C54BDC261ED69C005E2F05 /* LaunchScreen.storyboard in Resources */,
+				93C54C48261EED50005E2F05 /* Mocks.bundle in Resources */,
 				93C54BD9261ED69C005E2F05 /* Assets.xcassets in Resources */,
 				93C54BD7261ED69A005E2F05 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				93C54BD4261ED699005E2F05 /* ViewController.swift in Sources */,
+				93C54C13261EDE16005E2F05 /* Apod.swift in Sources */,
+				93C54C1B261EDE61005E2F05 /* ApodClient.swift in Sources */,
+				93C54C3B261EE82F005E2F05 /* Mocker.swift in Sources */,
 				93C54BD0261ED699005E2F05 /* AppDelegate.swift in Sources */,
+				93C54C21261EDEC9005E2F05 /* RemoteImageView.swift in Sources */,
 				93C54BD2261ED699005E2F05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C05F95261EF10D0037FA5A /* ApodClientTest.swift in Sources */,
 				93C54BE7261ED69C005E2F05 /* ApodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -587,6 +654,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93C54C09261EDD86005E2F05 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93C54C0A261EDD86005E2F05 /* OHHTTPStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93C54C09261EDD86005E2F05 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubs;
+		};
+		93C54C0C261EDD86005E2F05 /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93C54C09261EDD86005E2F05 /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93C54BC4261ED699005E2F05 /* Project object */;
 }
